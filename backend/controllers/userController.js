@@ -6,6 +6,7 @@ require('dotenv').config();
 // Register a new user
 async function registerUser(req, res) {
   try {
+    console.log('Received registration request:', req.body);
     const { name, email, password } = req.body;
     
     const newUser = new User({
@@ -15,8 +16,10 @@ async function registerUser(req, res) {
     });
 
     await newUser.save();
+    console.log('User Created Successfully!');
     res.json({ message: 'User created successfully!' });
   } catch (err) {
+    console.error('Error creating user:', err.message);
     res.status(500).json({ message: err.message });
   }
 }
