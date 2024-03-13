@@ -1,8 +1,6 @@
-# React + Vite
+# charity-impact-tracker
+Track the impact of your charitable donations and see how your contributions make a difference in real time.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Introduction
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The Charity Impact Tracker is a Web Application that allows users to track their charitable donations and see the impact of their contributions. Users can select charities, log their donations, set donation goals, and visualize the impact of their donations through charts and graphs.
